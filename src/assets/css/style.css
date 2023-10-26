@@ -1,0 +1,25 @@
+:root{
+    --primary-color: #fff;
+    --secondary-color: #9EB3C2;
+    --text-btn-color: #333;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background:  url('../img/fundo.jfif') no-repeat;
+
+}
+
+.caixa-texto{
+    color: #9EB3C2;
+}
+
+h1{
+    color: #9EB3C2;
+}
