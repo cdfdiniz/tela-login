@@ -3,32 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tela de Login</title>
     <link rel="stylesheet" href="./src/assets/css/style.css">
-    
- 
+    <script src="https://kit.fontawesome.com/a489858462.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
-    <section id="container">
-        <div class="left-div">
-
-        </div>
-        <div class="right-div">
-            <div class="formulario">
-                <h1>Login Account</h1>
-                <form action="form" class="login">
-                    <input type="login" placeholder="    text">
-                    <input type="password" placeholder="    password">
-                    <input type="checkbox"> Remember me
-                    <a href="#">Cadastro</a>
-                    
-                    <button>Subscribe</button>
-                </form>
+    <div class="container">
+        <div class="content first-content">
+            <div class="first-column">
+                <h2 class ="title title-primary">Bem vindo de volta!</h2>
+                <p class="description description-primary">Para continuar conectado conosco</p>
+                <p class="description description-primary">por favor, insira suas informações pessoais</p>
+                <button id="signin" class="btn btn-primary">Entrar</button>
             </div>
-            
-        </div>
-    </section>
-    
+            <div class="second-column">
+                    <h2 class="tittle title-second">Crie uma conta</h2>
+                <div class="div social-media">
+                    <ul class="list-social-media">
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fa-brands fa-facebook-f fa-beat-fade"></i>
+                            </li>
+                        </a>    
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fa-brands fa-google-plus-g fa-beat-fade"></i>
+                            </li>
+                        </a>    
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fa-brands fa-linkedin-in fa-beat-fade"></i>
+                            </li>
+                        </a>    
+                    </ul>
+                </div> <!-- social-media -->
+                <p class="description description-second">ou use seu e-mail para cadastro</p>
+                <form class="form">
+                    <label class="label-input" for="#">
+                        <i class="fa-solid fa-user icon-modify"></i>
+                        <input type="text" id="nome" placeholder="Name">
+                    </label>
+
+                    <label class="label-input" for="#">
+                        <i class="fa-solid fa-envelope icon-modify"></i>
+                        <input type="email" id="email" placeholder="Email">
+                    </label>
+
+                    <label class="label-input" for="#">
+                        <i class="fa-solid fa-lock icon-modify"></i>
+                        <input type="password" id="password" placeholder="Password">
+                    </label>  
+                                  
+                    <button class="btn btn-second">Cadastrar</button>
+                </form>
+            </div><!-- second column -->            
+        </div> <!-- first content -->
+        <div class="content second-content">
+            <div class="first-column">
+                <h2 class="title title-primary">Olá!</h2>
+                <h2 class="title title-primary">Ainda não tem uma conta?</h2>
+                <p class="description description-primary">Insira seus dados pessoais</p>
+                <p class="description description-primary">e comece sua jornada conosco</p>
+                <button id="signup" class="btn btn-primary">Cadastrar</button>
+            </div>
+            <div class="second-column">
+                    <h2 class="tittle title-second">Entre em nosso portal</h2>
+                    <div class="div social-media">
+                        <ul class="list-social-media">
+                            <a class="link-social-media" href="#">
+                                <li class="item-social-media">
+                                    <i class="fa-brands fa-facebook-f fa-beat-fade"></i>
+                                </li>
+                            </a>    
+                            <a class="link-social-media" href="#">
+                                <li class="item-social-media">
+                                    <i class="fa-brands fa-google-plus-g fa-beat-fade"></i>
+                                </li>
+                            </a>    
+                            <a class="link-social-media" href="#">
+                                <li class="item-social-media">
+                                    <i class="fa-brands fa-linkedin-in fa-beat-fade"></i>
+                                </li>
+                            </a>    
+                        </ul>
+                    </div> <!-- social-media -->
+                <p class="description description-second">ou use seu e-mail para entrar</p>
+                <form class="form">
+                    <label class="label-input" for="#">
+                        <i class="fa-solid fa-envelope icon-modify"></i>
+                        <input type="email" id="email" placeholder="Email">
+                    </label>
+
+                    <label class="label-input" for="#">
+                        <i class="fa-solid fa-lock icon-modify"></i>
+                        <input type="password" id="password" placeholder="Password">
+                    </label>  
+                    <a class="password" id="password" href="#">esqueci minha senha</a>               
+                    <button class="btn btn-second">Entrar</button>
+                </form>
+            </div><!-- second column -->   
+        </div><!-- second content -->  
+    </div>
+    <script src="./src/assets/js/app.js"></script>
     
 </body>
 </html>
